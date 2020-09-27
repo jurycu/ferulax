@@ -1,2 +1,2 @@
 # ferulax
- cloud compute coder! 
+deploy prometheus is sample
