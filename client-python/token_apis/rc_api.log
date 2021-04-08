@@ -1,0 +1,26 @@
+07/27/2019 09:14:28 AM - DEBUG - Starting new HTTPS connection (1): 192.168.60.205:6443
+07/27/2019 09:14:28 AM - DEBUG - https://192.168.60.205:6443 "DELETE /api/v1/namespaces/test HTTP/1.1" 403 298
+07/27/2019 09:14:28 AM - DEBUG - response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"test\" is forbidden: User \"system:serviceaccount:monitoring:zprometheus\" cannot delete namespaces in the namespace \"test\"","reason":"Forbidden","details":{"name":"test","kind":"namespaces"},"code":403}
+
+07/27/2019 09:18:54 AM - DEBUG - Starting new HTTPS connection (1): 192.168.60.205:6443
+07/27/2019 09:18:54 AM - DEBUG - https://192.168.60.205:6443 "GET /api/v1/namespaces HTTP/1.1" 403 268
+07/27/2019 09:18:54 AM - DEBUG - response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces is forbidden: User \"system:serviceaccount:monitoring:zprometheus\" cannot list namespaces at the cluster scope","reason":"Forbidden","details":{"kind":"namespaces"},"code":403}
+
+07/27/2019 10:29:58 AM - DEBUG - Starting new HTTPS connection (1): 192.168.60.205:6443
+07/27/2019 10:29:58 AM - DEBUG - https://192.168.60.205:6443 "GET /api/v1/namespaces HTTP/1.1" 403 268
+07/27/2019 10:29:58 AM - DEBUG - response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces is forbidden: User \"system:serviceaccount:monitoring:zprometheus\" cannot list namespaces at the cluster scope","reason":"Forbidden","details":{"kind":"namespaces"},"code":403}
+
+07/27/2019 10:30:52 AM - DEBUG - Starting new HTTPS connection (1): 192.168.60.205:6443
+07/27/2019 10:30:52 AM - DEBUG - https://192.168.60.205:6443 "GET /api/v1/namespaces HTTP/1.1" 403 268
+07/27/2019 10:30:52 AM - DEBUG - response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces is forbidden: User \"system:serviceaccount:monitoring:zprometheus\" cannot list namespaces at the cluster scope","reason":"Forbidden","details":{"kind":"namespaces"},"code":403}
+
+07/27/2019 10:31:37 AM - DEBUG - response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces is forbidden: User \"system:serviceaccount:monitoring:zprometheus\" cannot list namespaces at the cluster scope","reason":"Forbidden","details":{"kind":"namespaces"},"code":403}
+
+07/27/2019 10:32:55 AM - DEBUG - response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces is forbidden: User \"system:serviceaccount:monitoring:zprometheus\" cannot list namespaces at the cluster scope","reason":"Forbidden","details":{"kind":"namespaces"},"code":403}
+
+07/27/2019 10:33:29 AM - DEBUG - response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces is forbidden: User \"system:serviceaccount:monitoring:zprometheus\" cannot list namespaces at the cluster scope","reason":"Forbidden","details":{"kind":"namespaces"},"code":403}
+
+07/27/2019 10:33:49 AM - DEBUG - response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces is forbidden: User \"system:serviceaccount:monitoring:zprometheus\" cannot list namespaces at the cluster scope","reason":"Forbidden","details":{"kind":"namespaces"},"code":403}
+
+07/29/2019 09:27:43 AM - DEBUG - response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces is forbidden: User \"system:serviceaccount:monitoring:zprometheus\" cannot list namespaces at the cluster scope","reason":"Forbidden","details":{"kind":"namespaces"},"code":403}
+
