@@ -1,2 +1,2 @@
 # ferulax
-deploy prometheus is sample
+manager prometheus is sample
